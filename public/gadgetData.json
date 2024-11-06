@@ -1,0 +1,359 @@
+[
+    {
+        "product_id": "001",
+        "product_title": "Apple iPhone 15 Pro Max",
+        "product_image": "https://i.ibb.co.com/N6cfBqb/Apple-i-Phone-15-Pro-lineup-color-lineup-230912-big-jpg-large-2x.jpg",
+        "category": "IPhone",
+        "price": 1299,
+        "description": "The ultimate iPhone experience.",
+        "specification": [
+            "6.7-inch Super Retina XDR display",
+            "A17 Bionic chip",
+            "48MP Main camera",
+            "ProRes video recording"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "other_field": "5G compatible"
+    },
+    {
+        "product_id": "002",
+        "product_title": "Samsung Galaxy S24 Ultra",
+        "product_image": "https://i.ibb.co.com/PFR9C0Y/Samsung-Galaxy-S24-Ultra-renders-1024x653.jpg",
+        "category": "Smart Phones",
+        "price": 1199,
+        "description": "The future of Android.",
+        "specification": [
+            "6.8-inch Dynamic AMOLED 2X display",
+            "Snapdragon 8 Gen 3",
+            "200MP Main camera",
+            "S Pen support"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "other_field": "Water resistant"
+    },
+    {
+        "product_id": "003",
+        "product_title": "Apple Watch Series 9",
+        "product_image": "https://i.ibb.co.com/phBsWnS/Apple-Watch-Series-9-release-date-price-features-and-news.jpg",
+        "category": "Smartwatches",
+        "price": 399,
+        "description": "Your ultimate fitness companion.",
+        "specification": [
+            "Always-On Retina display",
+            "S9 chip",
+            "Advanced heart rate tracking",
+            "Crash Detection"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "other_field": "Blood oxygen monitoring"
+    },
+    {
+        "product_id": "004",
+        "product_title": "Samsung Galaxy Watch6 Classic",
+        "product_image": "https://i.ibb.co.com/xfBq9WS/001-galaxy-watch6-watch6-classic-combo-kv.jpg",
+        "category": "Smartwatches",
+        "price": 349,
+        "description": "The classic smartwatch, redefined.",
+        "specification": [
+            "1.2-inch Super AMOLED display",
+            "Exynos W930 processor",
+            "Advanced sleep tracking",
+            "Rotating bezel"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "other_field": "Blood pressure monitoring"
+    },
+    {
+        "product_id": "005",
+        "product_title": "Sony PlayStation 5",
+        "product_image": "https://i.ibb.co.com/GQdzXjW/wp6919915.jpg",
+        "category": "Gaming Consoles",
+        "price": 499,
+        "description": "Next-gen gaming, redefined.",
+        "specification": [
+            "Custom 8-core CPU",
+            "Custom GPU",
+            "Ultra-High Speed SSD",
+            "3D Audio"
+        ],
+        "availability": false,
+        "rating": 4.9,
+        "other_field": "4K gaming"
+    },
+    {
+        "product_id": "006",
+        "product_title": "Nintendo Switch OLED",
+        "product_image": "https://i.ibb.co.com/6bg2xKV/nintendo-switch-oled-set-03.jpg",
+        "category": "Gaming Consoles",
+        "price": 349,
+        "description": "Play anywhere, anytime.",
+        "specification": [
+            "7-inch OLED display",
+            "Custom NVIDIA Tegra processor",
+            "Joy-Con controllers",
+            "Docked and handheld modes"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "other_field": "Hybrid console"
+    },
+    {
+        "product_id": "007",
+        "product_title": "Dell XPS 13",
+        "product_image": "https://i.ibb.co.com/c3Sktjj/wtrz-Syt6-TECJib-GAt7v-SMP.jpg",
+        "category": "Laptops",
+        "price": 1299,
+        "description": "The ultimate laptop for productivity and creativity.",
+        "specification": [
+            "13.4-inch InfinityEdge display",
+            "12th Gen Intel Core processor",
+            "16GB RAM",
+            "512GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "other_field": "Thin and light design"
+    },
+    {
+        "product_id": "008",
+        "product_title": "MacBook Air M2",
+        "product_image": "https://i.ibb.co.com/YhZhXtp/macbook-air-m2.jpg",
+        "category": "Laptops",
+        "price": 1099,
+        "description": "The most powerful MacBook Air ever.",
+        "specification": [
+            "13.6-inch Liquid Retina display",
+            "M2 chip",
+            "8GB RAM",
+            "256GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "other_field": "MagSafe charging"
+    },
+    {
+        "product_id": "009",
+        "product_title": "Sony WH-1000XM5",
+        "product_image": "https://i.ibb.co.com/bNgFbGX/isolated-sony-wh-1000xm5-wireless-headphones-front-view-featuring-white-background-clean-655090-8010.jpg",
+        "category": "Headphones",
+        "price": 399,
+        "description": "Industry-leading noise cancellation.",
+        "specification": [
+            "High-resolution audio",
+            "Adaptive sound control",
+            "Speak-to-Chat",
+            "Up to 30 hours battery life"
+        ],
+        "availability": true,
+        "rating": 4.9,
+        "other_field": "Comfortable fit"
+    },
+    {
+        "product_id": "010",
+        "product_title": "Apple AirPods Pro (2nd generation)",
+        "product_image": "https://i.ibb.co.com/PNDNhqC/2022239-airpods-geek-culture.jpg",
+        "category": "Headphones",
+        "price": 249,
+        "description": "Immersive sound, personalized for you.",
+        "specification": [
+            "Active Noise Cancellation",
+            "Adaptive Transparency",
+            "Spatial Audio",
+            "MagSafe Charging Case"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "other_field": "Sweat and water resistant"
+    },
+    {
+        "product_id": "011",
+        "product_title": "Samsung Galaxy Tab S9 Ultra",
+        "product_image": "https://i.ibb.co.com/fHNRwrw/samsung-galaxy-tab-s9-ultra-plants.jpg",
+        "category": "Tablets",
+        "price": 1199,
+        "description": "The ultimate tablet for productivity and entertainment.",
+        "specification": [
+            "14.6-inch Super AMOLED display",
+            "Snapdragon 8 Gen 2",
+            "S Pen included",
+            "DeX mode"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "other_field": "Slim and lightweight"
+    },
+    {
+        "product_id": "012",
+        "product_title": "iPad Pro (2022)",
+        "product_image": "https://i.ibb.co.com/NCjHnrn/840-560.jpg",
+        "category": "Tablets",
+        "price": 999,
+        "description": "The most powerful iPad ever.",
+        "specification": [
+            "12.9-inch Liquid Retina XDR display",
+            "M2 chip",
+            "LiDAR scanner",
+            "Apple Pencil support"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "other_field": "Face ID"
+    },
+    {
+        "product_id": "013",
+        "product_title": "Sony A7 IV",
+        "product_image": "https://i.ibb.co.com/hYN8BQW/DSC09703-acr.jpg",
+        "category": "Cameras",
+        "price": 2499,
+        "description": "Full-frame mirrorless camera for professionals.",
+        "specification": [
+            "33MP Back-illuminated CMOS sensor",
+            "BIONZ XR processor",
+            "8K video recording",
+            "5-axis image stabilization"
+        ],
+        "availability": true,
+        "rating": 4.9,
+        "other_field": "Weather-sealed body"
+    },
+    {
+        "product_id": "014",
+        "product_title": "DJI Mavic 3 Pro",
+        "product_image": "https://i.ibb.co.com/SfTsrFc/dji-mavic-3-pro.jpg",
+        "category": "Drones",
+        "price": 1499,
+        "description": "The ultimate cinematic drone.",
+        "specification": [
+            "Three-camera system",
+            "Hasselblad camera sensor",
+            "46 minutes flight time",
+            "Obstacle avoidance sensors"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "other_field": "4K/60fps video recording"
+    },
+    {
+        "product_id": "015",
+        "product_title": "Apple HomePod (2nd generation)",
+        "product_image": "https://i.ibb.co.com/9rqrcN3/gsmarena-001.jpg",
+        "category": "Smart Speakers",
+        "price": 299,
+        "description": "Rich, room-filling sound.",
+        "specification": [
+            "Siri voice control",
+            "Spatial Audio",
+            "Matter support",
+            "Thread border router"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "other_field": "Multi-room audio"
+    },
+    {
+        "product_id": "016",
+        "product_title": "Sonos Roam",
+        "product_image": "https://i.ibb.co.com/bzcDx5L/sonos-roam-3.webp",
+        "category": "Smart Speakers",
+        "price": 179,
+        "description": "Portable smart speaker for any room.",
+        "specification": [
+            "Wi-Fi and Bluetooth connectivity",
+            "IP67 water and dust resistance",
+            "Automatic Trueplay tuning",
+            "Voice assistant support"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "other_field": "Long battery life"
+    },
+    {
+        "product_id": "017",
+        "product_title": "Logitech G Pro X Superlight",
+        "product_image": "https://i.ibb.co.com/xgMtddZ/Logitech-G-Pro-X-Superlight-Left-Side-Profile.png",
+        "category": "Gaming Mice",
+        "price": 129,
+        "description": "Ultralight gaming mouse for peak performance.",
+        "specification": [
+            "Lightweight design",
+            "Hero 25K sensor",
+            "Programmable buttons",
+            "Lightspeed wireless technology"
+        ],
+        "availability": true,
+        "rating": 4.9,
+        "other_field": "Ergonomic design"
+    },
+    {
+        "product_id": "018",
+        "product_title": "Razer Viper V2 Pro",
+        "product_image": "https://i.ibb.co.com/GCRJmNW/Vji-DKY7-Xz-Xa9xwu-R7-Kc9x-Y-1200-80.jpg",
+        "category": "Gaming Mice",
+        "price": 149,
+        "description": "The ultimate esports mouse.",
+        "specification": [
+            "Ultralight design",
+            "Focus Pro 30K sensor",
+            "Optical mouse switches",
+            "HyperSpeed wireless technology"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "other_field": "Customizable RGB lighting"
+    },
+    {
+        "product_id": "019",
+        "product_title": "Apple Pencil (2nd generation)",
+        "product_image": "https://i.ibb.co.com/pwV8N6n/gt-M7-Nxe-LTCj-HAi-JUxghs-JK.jpg",
+        "category": "Accessories",
+        "price": 129,
+        "description": "The perfect companion for your iPad.",
+        "specification": [
+            "Precise pixel-perfect accuracy",
+            "Double-tap for shortcuts",
+            "Magnetic attachment",
+            "Wireless charging"
+        ],
+        "availability": true,
+        "rating": 4.9,
+        "other_field": "Low-latency performance"
+    },
+    {
+        "product_id": "020",
+        "product_title": "Anker PowerCore 20000 PD",
+        "product_image": "https://i.ibb.co.com/54HJKH7/6-7.webp",
+        "category": "Accessories",
+        "price": 59,
+        "description": "Powerful portable charger for all your devices.",
+        "specification": [
+            "20000mAh battery capacity",
+            "Power Delivery 3.0",
+            "PowerIQ 3.0",
+            "Multiple charging ports"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "other_field": "Compact and lightweight"
+    },
+    {
+        "product_id": "021",
+        "product_title": "Apple iPhone 16 Pro Max",
+        "product_image": "https://i.ibb.co.com/crCyZkM/Apple-i-Phone-16-Pro-Max-release-date-predictions-price-specs-and-expected-upgrades.jpg", 
+        "category": "IPhone",
+        "price": 1399,
+        "description": "The next-generation iPhone.",
+        "specification": [
+            "6.7-inch Super Retina XDR display",
+            "A18 Bionic chip",
+            "50MP Main camera",
+            "8K video recording"
+        ],
+        "availability": false, 
+        "rating": 5.0, 
+        "other_field": "Improved battery life"
+    }
+]
