@@ -119,9 +119,13 @@ const GadgetDetail = () => {
               </button>
             </Link>
           </div>
-          <Link onClick={()=> handleWishlist(product_id)}>
+
+
+          <Link onClick={()=> handleWishlist(product_id)} to="/selectedGadgets">
             <FaRegHeart className="ml-[100px] mt-[50px] md:ml-0 md:mt-0 text-3xl text-[#9538E2] rounded-full" />
           </Link>
+
+
         </div>
       </div>
     </div>

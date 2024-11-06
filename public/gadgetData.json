@@ -3,7 +3,7 @@
         "product_id": "001",
         "product_title": "Apple iPhone 15 Pro Max",
         "product_image": "https://i.ibb.co.com/N6cfBqb/Apple-i-Phone-15-Pro-lineup-color-lineup-230912-big-jpg-large-2x.jpg",
-        "category": "IPhone",
+        "category": "Smart Phones",
         "price": 1299,
         "description": "The ultimate iPhone experience.",
         "specification": [
@@ -37,7 +37,7 @@
         "product_id": "003",
         "product_title": "Apple Watch Series 9",
         "product_image": "https://i.ibb.co.com/phBsWnS/Apple-Watch-Series-9-release-date-price-features-and-news.jpg",
-        "category": "Smartwatches",
+        "category": "Smart Watches",
         "price": 399,
         "description": "Your ultimate fitness companion.",
         "specification": [
@@ -54,7 +54,7 @@
         "product_id": "004",
         "product_title": "Samsung Galaxy Watch6 Classic",
         "product_image": "https://i.ibb.co.com/xfBq9WS/001-galaxy-watch6-watch6-classic-combo-kv.jpg",
-        "category": "Smartwatches",
+        "category": "Smart Watches",
         "price": 349,
         "description": "The classic smartwatch, redefined.",
         "specification": [
@@ -241,7 +241,7 @@
         "product_id": "015",
         "product_title": "Apple HomePod (2nd generation)",
         "product_image": "https://i.ibb.co.com/9rqrcN3/gsmarena-001.jpg",
-        "category": "Smart Speakers",
+        "category": "Accessories",
         "price": 299,
         "description": "Rich, room-filling sound.",
         "specification": [
@@ -258,7 +258,7 @@
         "product_id": "016",
         "product_title": "Sonos Roam",
         "product_image": "https://i.ibb.co.com/bzcDx5L/sonos-roam-3.webp",
-        "category": "Smart Speakers",
+        "category": "Accessories",
         "price": 179,
         "description": "Portable smart speaker for any room.",
         "specification": [
@@ -343,7 +343,7 @@
         "product_id": "021",
         "product_title": "Apple iPhone 16 Pro Max",
         "product_image": "https://i.ibb.co.com/crCyZkM/Apple-i-Phone-16-Pro-Max-release-date-predictions-price-specs-and-expected-upgrades.jpg", 
-        "category": "IPhone",
+        "category": "Smart Phones",
         "price": 1399,
         "description": "The next-generation iPhone.",
         "specification": [

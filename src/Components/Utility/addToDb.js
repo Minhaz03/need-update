@@ -44,4 +44,4 @@ const addGadgetToWishlist = (id) => {
   }
 };
 
-export { addGadgetToCart, addGadgetToWishlist, getStoredGadgetAtAddToCart };
+export { addGadgetToCart, addGadgetToWishlist, getStoredGadgetAtAddToCart, getStoredGadgetToWishlist };

@@ -1,13 +1,18 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { CiShoppingCart } from "react-icons/ci";
 import { FaRegHeart } from "react-icons/fa";
 
 const Navbar = () => {
+  const location = useLocation();
+  const pathname = location.pathname;
+
   const links = (
     <>
       <li>
-        <NavLink className="text-black lg:text-white" to="/">Home</NavLink>
+        <NavLink className="text-black lg:text-white" to="/">
+          Home
+        </NavLink>
       </li>
       <li>
         <NavLink to="/statistics" className="text-black lg:text-white">
@@ -15,17 +20,23 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink to="/selectedGadgets" className="text-black lg:text-white">Dashboard</NavLink>
+        <NavLink to="/selectedGadgets" className="text-black lg:text-white">
+          Dashboard
+        </NavLink>
       </li>
       <li>
-        <a className="text-black lg:text-white">Feedback & Reviews</a>
+        <NavLink to="/feedbackReviews" className="text-black lg:text-white">Feedback & Reviews</NavLink>
       </li>
     </>
   );
 
   return (
     <section>
-      <div className="navbar bg-[#9538E2] mt-5 text-white rounded-lg md:px-10">
+      <div
+        className={`${
+          pathname === "/" ? "bg-[#9538E2]" : "bg-gray-300"
+        } navbar  mt-5 text-white rounded-lg md:px-10`}
+      >
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

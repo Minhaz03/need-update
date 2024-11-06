@@ -2,24 +2,36 @@ import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import { getStoredGadgetAtAddToCart } from "../Utility/addToDb";
+import { getStoredGadgetAtAddToCart, getStoredGadgetToWishlist } from "../Utility/addToDb";
+import Gadget from "../Gadget/Gadget";
+import SelectGadget from "../SelectGadget/SelectGadget";
+import WishlistGadget from "../WishlistGadget/WishlistGadget";
+import { toast } from "react-toastify";
 
 const SelectedGadgets = () => {
   const [addToCart, setAddToCart] = useState([]);
+  const [wishlist, setWishlist] = useState([]);
   // console.log(addToCart);
   const allGadgets = useLoaderData();
     // console.log(allGadgets)
 
   useEffect(() => {
     const storedAddToCart = getStoredGadgetAtAddToCart();
+    const storedWishlist = getStoredGadgetToWishlist();
     // console.log(setAddToCart)
-    const storedAddToCartInt = storedAddToCart.map((id) => parseInt(id));
-    console.log(storedAddToCartInt);
+    const storedAddToCartInt = storedAddToCart.map((id) => (id));
+    const storedWishlistInt = storedWishlist.map((id) => (id));
+    // console.log(storedAddToCartInt);
 
     const gadgetAddToCart = allGadgets.filter((product) =>
       storedAddToCartInt.includes(product.product_id)
   );
-  console.log(gadgetAddToCart);
+
+    const gadgetWishlist = allGadgets.filter((product) =>
+      storedWishlistInt.includes(product.product_id)
+  );
+
+  // console.log(gadgetAddToCart);
 
     // const gadgetAddToCart = allGadgets.filter((gadget) =>
     //   storedAddToCartInt.includes(gadget.product_id)
@@ -28,7 +40,10 @@ const SelectedGadgets = () => {
     // console.log(gadgetAddToCart);
 
     setAddToCart(gadgetAddToCart);
+    setWishlist(gadgetWishlist);
   }, []);
+
+  const notify = () => toast.success("Congratulation Product Purchased Successfully");
 
   return (
     <div>
@@ -58,10 +73,31 @@ const SelectedGadgets = () => {
         </TabList>
 
         <TabPanel className="mt-10 font-bold text-2xl">
-          <h2>Gadgets Added To Cart: {addToCart.length}</h2>
+          <div className="flex flex-col md:flex-row justify-between">
+            <h2 className="text-2xl font-bold">Cart</h2>
+            <div className="flex flex-col md:flex-row gap-4 text-center items-center">
+              {/*  */}
+              <h2>Total Cost: $ 0</h2>
+              {/*  */}
+              <button className="btn text-xl bg-white text-fuchsia-400 ml-3">Sort By Price</button>
+              {/*  */}
+              <button onClick={notify} className="btn text-xl bg-fuchsia-400 text-white">Purchase</button>
+              {/*  */}
+            </div>
+          </div>
+          <div className="mt-5 space-y-8">
+            {
+              addToCart.map(gadget => <SelectGadget key={gadget.product_id} gadget={gadget}></SelectGadget>)
+            }
+          </div>
         </TabPanel>
         <TabPanel className="mt-10 font-bold text-2xl">
-          <h2>Gadgets Added To Wishlist</h2>
+          {/* <h2>Gadgets Added To Wishlist: {wishlist.length}</h2> */}
+          <div className="mt-5 space-y-8">
+            {
+              wishlist.map(gadget => <WishlistGadget key={gadget.product_id} gadget={gadget}></WishlistGadget>)
+            }
+          </div>
         </TabPanel>
       </Tabs>
     </div>
